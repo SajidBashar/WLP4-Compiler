@@ -6,8 +6,8 @@ This is a compiler written in C++ for a subset of the C language, known as WLP4.
 
 Run ``./wlp4c`` with the desired ``.wlp4`` file as an operand. The ``wlp4c`` progam will produce a corresponding ``.mips`` file in the ``WLP4-Compiler`` directory. Ensure that you run the ``wlp4c`` program in the ``WLP4-Compiler`` directory. 
 
-Provided is ``example.wlp4``, taken from the WLP4 language specification page given above, along with the correspnding ``example.asm`` file. The invocation of ``wlp4c`` to compile ``example.wlp4`` would be 
+Provided is ``foo.wlp4`` along with its correspnding ``foo.asm`` file. The invocation of ``wlp4c`` to compile ``foo.wlp4`` would be 
 
 ```sh
-./wlp4c example.wlp4
+./wlp4c foo.wlp4
 ```
